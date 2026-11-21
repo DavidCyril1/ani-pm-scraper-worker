@@ -1,0 +1,9 @@
+name = "ani-pm-scraper-worker"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+# Optional: custom domain later
+# routes = [{ pattern = "api.example.com/*", zone_name = "example.com" }]
+
+[vars]
+# ANIPM_BASE = "https://ani.pm"

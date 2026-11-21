@@ -1,0 +1,19 @@
+{
+  "name": "ani-pm-scraper-worker",
+  "version": "1.0.0",
+  "description": "Edge/Worker deployable ani.pm scraper API (Cloudflare Workers, Vercel Edge, etc.)",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "dependencies": {
+    "hono": "^4.6.12"
+  },
+  "devDependencies": {
+    "wrangler": "^3.91.0"
+  },
+  "license": "MIT"
+}
